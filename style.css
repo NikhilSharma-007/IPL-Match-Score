@@ -1,0 +1,94 @@
+/* Reset default margin and padding */
+body, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set background color and text color */
+  body {
+    background-color: #272727; 
+    color: #fff; 
+    font-family: 'Arial', sans-serif;
+    min-width: 400px; 
+  }
+  
+  /* Center the content */
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Style the paragraph */
+  p {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #ec1c24; 
+  }
+  
+  /* Style the list item */
+  li {
+    list-style-type: none;
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ec1c24; 
+    border-radius: 4px;
+    background-color: #333; 
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease; 
+  }
+  
+  /* Hover effect for list items */
+  li:hover {
+    background-color: #444; 
+    cursor: pointer; 
+  }
+  
+  /* Add some margin between list items */
+  li + li {
+    margin-top: 5px;
+  }
+  
+  /* Add a separator line between list items */
+  li + li::before {
+    content: "";
+    display: block;
+    border-top: 1px solid #ec1c24; 
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  
+  /* Style the score and team name */
+  .score {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .team {
+    font-weight: bold;
+  }
+  
+  /* Add styling for match status */
+  .status {
+    font-size: 18px;
+    color: #ccc; 
+  }
+  
+  /* Add styling for match result */
+  .result {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Add styling for live match */
+  .live {
+    background-color: #ffd700; 
+  }
+  
+  /* Add styling for completed match */
+  .completed {
+    background-color: #228b22; 
+  }
+  

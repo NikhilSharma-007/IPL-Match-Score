@@ -1,0 +1,16 @@
+{
+    "name": "IPL Match Score",
+    "version": "1.0.0",
+    "description": "Best extension For IPL Match Scores",
+    "manifest_version": 3,
+    "author": "Nikhil Sharma",
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "IPL Match Score",
+        "default_icon": "ipl.png"
+    },
+    "icons": {
+        "128": "ipl.png"
+    },
+    "permissions" : ["activeTab"]
+}
